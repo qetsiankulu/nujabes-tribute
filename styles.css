@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400&family=Oswald:wght@300;400;500;600&display=swap');
+
+:root { 
+  --color-black: #000; 
+  --color-white: #fff; 
+  --color-grey: #6e6e6e; 
+}
+
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+#main { 
+   font-family: 'IBM Plex Serif', serif;
+}
+
+section { 
+  background-color: var(--color-black); 
+  color: white; 
+
+}
+
+
+#image { 
+  display: block; 
+  height: auto; 
+  max-width: 100%; 
+  margin: 0 auto; 
+}
+
+#img-div { 
+  margin: 0 auto; 
+}
+figcaption {
+  padding: 15px; 
+  text-align: center; 
+}
+
+.small-grey { 
+  font-size: 1.5rem; 
+  color: var(--color-grey); 
+}
+
+h1 { 
+  font-size: 6rem;
+  font-family: "Oswald", sans-serif; 
+}
+
+#text-div p { 
+  padding-top: 60px; 
+  font-style: italic; 
+  font-size: 1.5rem;
+}
+
+.hero { 
+  display: grid; 
+  grid-template-columns: 2fr 1fr; 
+  justify-content: space-between; 
+  align-items: center; 
+
+
+  width: 100%;
+  margin: 0 auto;  
+  color: var(--color-white); 
+  padding: 15px ; 
+  height: 60vh;
+}
+
+.section-wrapper { 
+  max-width: 1300px;
+  margin:0 auto; 
+}
+
+.albums-content { 
+ padding-top: 20px;  
+}
+
+section h2 { 
+  font-size: 32px; 
+}
+.tribute-text p {
+  padding-top: 20px; 
+  font-size: 20px; 
+}
+
+a:visited { 
+  color: blue; 
+}
+
+.grid-container { 
+  padding: 60px 0px; 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  text-align: center; 
+  
+}
+
+.album-text {
+  padding-top: 10px; 
+}
+
+.album-group { 
+  position: relative; 
+}
+
+.album-group a::before{ 
+  content:""; 
+  position: absolute; 
+  top: 0px; 
+  right: 0px; 
+  bottom: 0px; 
+  left: 0px; 
+}
+
+
+.nujabes-graphic { 
+background-image: url(https://external-preview.redd.it/wyylfhqTQdrWNsT9s8NeCncz0PIaSz6NFzCczSLPjJA.jpg?auto=webp&s=0848aaff0bea6bf6844826dcdcec4d51cc42adc2); 
+ background-position: center; 
+ background-size: contain; 
+ background-repeat: no-repeat; 
+
+}
+.background-image { 
+  height: 60vh; 
+  width: 100%; 
+  margin: 0 auto; 
+}
+
+
