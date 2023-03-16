@@ -31,6 +31,64 @@ section h2 {
   font-size: clamp(2.5rem, 3vw, 3rem)  
 }
 
+header { 
+  width: 100%; 
+  z-index: 1;
+  position: sticky;  
+  top: 0; 
+}
+
+.navbar { 
+  background-color:  #FFD90D; 
+  color:#000; 
+  display: flex;
+  font-size: 1.5rem;
+
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.logo { 
+  height: 7.5rem;
+}
+
+.mainMenu { 
+  display: flex;
+  list-style-type: none;
+}
+
+.mainMenu .list-item { 
+  display: inline-block;
+  padding: 1.25rem 0.625rem; 
+}
+
+.navbar a { 
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar a:hover { 
+  color: #6E0A1F; 
+  font-weight: 600;
+}
+
+.navbar .openMenu { 
+  font-size: 2rem;
+  margin: 1.25rem; 
+  display: none;
+  cursor: pointer;
+}
+
+.navbar .mainMenu .closeMenu { 
+  font-size: 2rem; 
+  display: none;
+  cursor: pointer; 
+}
+
+
+
 /* Hero */ 
 #hero { 
   display: flex; 
@@ -121,7 +179,8 @@ a:visited {
 }
 
 .album-grid { 
-  padding: 3.75rem 0; 
+  width: 100%; 
+  padding-top: 1rem; 
 
   justify-items: center;
   align-items: center;
@@ -140,7 +199,8 @@ a:visited {
 }
 
 .album-visual img { 
-  width: 100%; 
+  max-width: 100%; 
+  min-width: 90%; 
   height: auto; 
 }
 
@@ -189,13 +249,63 @@ background-image: url(https://external-preview.redd.it/wyylfhqTQdrWNsT9s8NeCncz0
     margin: 1rem; 
   }
 
-
   #hero .hero-grid { 
     grid-template-columns: 2.75fr;
   }; 
+}
 
-.album-grid { 
-    grid-template-columns: 1fr; 
+@media (max-width: 1163px) { 
+  #albums .album-grid { 
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+
   }
 
 }
+
+@media (min-width: 320px) { 
+  .album-group { 
+    padding: 1.25rem; 
+  }
+}
+
+
+footer {
+  margin-top: 2rem; 
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-separator { 
+  border-color: #FFD90D; 
+  width: 40vw;  
+  margin: 0 auto; 
+  margin-bottom: 20px; 
+}
+
+.footer-list { 
+  display: inline-flex;
+  justify-content: center;
+}
+
+.footer-list .list-item{ 
+  padding: 0px;  
+  margin: 0.625rem 0.3125rem; 
+  list-style-type: none;
+}
+
+.social-icon { 
+  color:#FFD90D;
+  height: 3.75rem; 
+}
+
+.footer-text { 
+  text-align: center; 
+  color: #fff; 
+  margin: 1.625rem 0; 
+  font-size: .75rem; 
+  position: relative;
+  bottom: 0.95rem;
+} 
