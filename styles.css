@@ -4,6 +4,8 @@
   --color-black: #000; 
   --color-white: #fff; 
   --color-grey: #6e6e6e; 
+  --color-red: #dd372f; 
+  --brand-yellow: #FFD90D; 
 }
 
 /* Global Styling */ 
@@ -23,78 +25,30 @@ section {
   max-width: 1400px;
   min-width: 300px;
   margin: 0 auto;  
-  font-size: clamp(1.5rem, 3vw, 2rem); 
-  padding: 0 .725rem; 
+  font-size: clamp(.75rem, 3vw, 1rem); 
+  padding: 0 4rem; 
 }
 
 section h2 { 
-  font-size: clamp(2.5rem, 3vw, 3rem)  
+  font-size: clamp(1.5rem, 3vw, 2rem)  
 }
 
-header { 
-  width: 100%; 
-  z-index: 1;
-  position: sticky;  
-  top: 0; 
+.section-separator{ 
+  border-color: var(--color-red); 
 }
 
-.navbar { 
-  background-color:  #FFD90D; 
-  color:#000; 
-  display: flex;
-  font-size: 1.5rem;
-
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 1.5rem;
+.section-text p {
+  padding-top: .75rem; 
+  text-align: justify; 
 }
-
-.logo { 
-  height: 7.5rem;
-}
-
-.mainMenu { 
-  display: flex;
-  list-style-type: none;
-}
-
-.mainMenu .list-item { 
-  display: inline-block;
-  padding: 1.25rem 0.625rem; 
-}
-
-.navbar a { 
-  color: #000;
-  text-decoration: none;
-}
-
-.navbar a:hover { 
-  color: #6E0A1F; 
-  font-weight: 600;
-}
-
-.navbar .openMenu { 
-  font-size: 2rem;
-  margin: 1.25rem; 
-  display: none;
-  cursor: pointer;
-}
-
-.navbar .mainMenu .closeMenu { 
-  font-size: 2rem; 
-  display: none;
-  cursor: pointer; 
-}
-
-
 
 /* Hero */ 
 #hero { 
   display: flex; 
   justify-content: center;
-  height: 90vh; 
+  height: 100vh; 
   align-items: center; 
+  flex-wrap: wrap; 
 }
 
 #hero .container { 
@@ -108,7 +62,6 @@ header {
 #hero .hero-wrapper { 
   display: flex; 
   max-width: 1140px; 
-  margin: 2.5rem 0; 
   flex-direction: column; 
   align-items: center; 
   justify-content: center;
@@ -122,7 +75,7 @@ header {
   align-items: center;
 
   display: grid;
-  grid-template-columns: repeat(2, 2.75fr);   
+  grid-template-columns: 2fr 1fr;   
   grid-template-rows: auto auto; 
   grid-auto-columns: 1fr;
 }
@@ -130,47 +83,40 @@ header {
 #hero-image { 
   display: block; 
   height: auto; 
-  max-width: 100%; 
-  min-width: 55%;
+  max-width: 70%; 
+  min-width: 60%;
   margin: 0 auto; 
   padding: 1rem 0; 
 }
 
 #hero #image-div figcaption {
-  padding: 1rem; 
+  padding-bottom: 1rem; 
   text-align: center;
-  font-size: 1.275rem; 
+  font-size: clamp(6px, 4vw, 10px); 
 }
 
 #hero #text-div { 
-  margin-top: 3rem; 
   font-family: "Oswald", sans-serif;
   text-align: center; 
 }
 
 #text-div .small-grey-text { 
-  font-size: clamp(32px, 4vw, 40px); 
+  font-size: clamp(5px, 4vw, 16px); 
   color: var(--color-grey); 
 }
 
 #text-div h1 { 
- font-size: clamp(96px, 4vw, 120px); 
+ font-size: clamp(32px, 4vw, 60px); 
 }
 
 #text-div p { 
- font-size: clamp(30px, 4vw, 40px); 
+ font-size: clamp(6px, 4vw, 14px); 
  font-style: italic; 
- padding-top: 1rem; 
 }
-
 
 /* Tribute Info */ 
-.tribute-text p {
-  padding-top: 1rem; 
-}
-
 a:visited { 
-  color: #dd372f; 
+  color: var(--color-red); 
 }
 
 /* Albums */ 
@@ -195,12 +141,12 @@ a:visited {
 }
 
 .album-text {
-  padding-top: 20px; 
+  padding-top: 1.25rem; 
 }
 
 .album-visual img { 
-  max-width: 100%; 
-  min-width: 90%; 
+  max-width: 60%; 
+  min-width: 45%; 
   height: auto; 
 }
 
@@ -217,50 +163,35 @@ a:visited {
   left: 0px; 
 }
 
-
 iframe { 
   display: block;
   width: 100%; 
   max-width: 1400px;; 
   min-width: 300px;
   margin: 0 auto; 
+  margin-top: 1.5rem; 
 }
 
-.nujabes-graphic { 
-background-image: url(https://external-preview.redd.it/wyylfhqTQdrWNsT9s8NeCncz0PIaSz6NFzCczSLPjJA.jpg?auto=webp&s=0848aaff0bea6bf6844826dcdcec4d51cc42adc2); 
- background-position: center; 
- background-size: contain; 
- background-repeat: no-repeat; 
-
-}
 .background-image { 
   height: 60vh; 
   width: 100%; 
   margin: 0 auto; 
 }
 
-/* Responsive Design for Grids */
-@media (max-width: 1163px) {
-  #hero { 
-    height: 100vh; 
-  }
-
-  #hero .hero-wrapper { 
-    margin: 1rem; 
-  }
+/* Media Queries */
+@media (max-width: 724px) {
 
   #hero .hero-grid { 
-    grid-template-columns: 2.75fr;
+    grid-template-columns: 1fr;
   }; 
 }
 
-@media (max-width: 1163px) { 
+@media (max-width: 1158px) { 
   #albums .album-grid { 
     grid-template-columns: 1fr;
     row-gap: 1rem;
 
   }
-
 }
 
 @media (min-width: 320px) { 
@@ -279,7 +210,7 @@ footer {
 }
 
 .footer-separator { 
-  border-color: #FFD90D; 
+  border-color: var(--brand-yellow); 
   width: 40vw;  
   margin: 0 auto; 
   margin-bottom: 20px; 
@@ -297,7 +228,7 @@ footer {
 }
 
 .social-icon { 
-  color:#FFD90D;
+  color: var(--brand-yellow);
   height: 3.75rem; 
 }
 
