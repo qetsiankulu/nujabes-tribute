@@ -9,7 +9,6 @@
   --font-oswald: "Oswald", sans-serif;
 }
 
-
 /* Global Styling */ 
 * { 
   margin: 0; 
@@ -256,7 +255,6 @@ iframe {
     font-size: 1.25rem; 
   }
 }
-
 
 /* Footer */
 footer {
