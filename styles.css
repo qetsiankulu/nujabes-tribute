@@ -8,6 +8,7 @@
   --brand-yellow: #FFD90D; 
 }
 
+
 /* Global Styling */ 
 * { 
   margin: 0; 
@@ -18,6 +19,7 @@
 main { 
    font-family: 'IBM Plex Serif', serif;
    background-color: var(--color-black); 
+   min-width: 300px; 
 }
 
 section { 
@@ -120,6 +122,10 @@ section h2 {
 }
 
 /* Tribute Info */ 
+a:any-link { 
+  color: var(--color-red); 
+}
+
 a:visited { 
   color: var(--color-red); 
 }
