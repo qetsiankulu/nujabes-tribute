@@ -3,7 +3,7 @@
 ![image](https://github.com/qetsiankulu/nujabes-tribute/assets/95947073/638ab415-dde6-407c-a446-11f41ba56e5a)
 
 
-This project is a responsive website paying homage to the late Godfather of Lofi Hip-Hop. As a tribute to his immense contributions to the world of music and culture, I have created a platform that not only celebrates his legacy but also allows users to explore his music through an embedded media player powered by the Spotify API.
+This project is a responsive website paying homage to Jun Seba aka Nujabes. As a tribute to his immense contributions to the world of lofi music, I have created a platform that not only celebrates his legacy but also allows users to explore his music through an embedded media player powered by the Spotify API.
 
 ## Table of Contents
 
