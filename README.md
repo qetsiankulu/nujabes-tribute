@@ -29,9 +29,7 @@ I created this project to demonstrate my proficiency (i.e., able to complete cod
 
 ## Demo
 
-You can experience the Nujabes Tribute website live by [visitg the website](https://qetsiankulu.com/nujabes-tribute.html).
-
-[Visit our website](https://your-website-url-here.com)
+You can experience the Nujabes Tribute website live by [visiting the webpage](https://qetsiankulu.com/nujabes-tribute.html).
 
 ## Usage
 
