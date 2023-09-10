@@ -1,6 +1,6 @@
 # Tribute to the Godfather of Lofi Hip-Hop
 
-![Nujabes Colorful Drawing](https://qetsiankulu.com/index.html)
+![image](https://github.com/qetsiankulu/nujabes-tribute/assets/95947073/638ab415-dde6-407c-a446-11f41ba56e5a)
 
 
 This project is a responsive website paying homage to the late Godfather of Lofi Hip-Hop. As a tribute to his immense contributions to the world of music and culture, I have created a platform that not only celebrates his legacy but also allows users to explore his music through an embedded media player powered by the Spotify API.
@@ -15,7 +15,7 @@ This project is a responsive website paying homage to the late Godfather of Lofi
 ## Introduction
 
 Nujabes left an indelible mark on the music industry, and this project serves as a digital memorial to honor his work. My website not only provides a platform to learn about his life and career but also allows users to listen to his music effortlessly through the embedded Spotify media player.
-I created this project to demonstrate my proficiency (i.e., able to complete coding projects with no assistance) in the following programming languages: JavaScript, CSS, HTML. 
+I created this project to demonstrate my proficiency (i.e., able to complete coding projects with no assistance) in the following programming languages: HTML, CSS. 
 
 ## Features
 
@@ -41,4 +41,4 @@ You can experience the Nujabes Tribute website live by [visiting the webpage](ht
 
 ---
 
-Thank you for visiting my Tribute to the Godfather of Lofi Hip-Hop website. I hope you enjoy the music and learn more about this legendary figure in the world of music and culture. If you have any questions or suggestions, please feel free to reach out to me.
+Thank you for visiting my Nujabes Tribute webpage. I hope you enjoy the music and learn more about this legendary figure in the world of Lofi Hip-Hop. If you have any questions or suggestions, please feel free to reach out to me.
