@@ -1,4 +1,4 @@
-# Tribute to the Godfather of Lofi Hip-Hop
+# Nujabes Tributes
 
 ![image](https://github.com/qetsiankulu/nujabes-tribute/assets/95947073/638ab415-dde6-407c-a446-11f41ba56e5a)
 
