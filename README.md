@@ -21,9 +21,9 @@ I created this project to demonstrate my proficiency (i.e., able to complete cod
 
 - **Responsive Design:** The website is designed to work seamlessly on various devices, from desktop computers to mobile phones, ensuring that users can access it from anywhere.
 
-- **Embedded Spotify Player:** I've integrated the Spotify API to provide an immersive music listening experience. Users can explore the Godfather of Hip-Hop's discography and enjoy his tracks without leaving the website.
+- **Embedded Spotify Player:** I've integrated the Spotify API to provide an immersive music listening experience. Users can explore Nujabes's discography and enjoy his tracks without leaving the website.
 
-- **Tribute Section:** Learn about the life, achievements, and impact of the Godfather of Hip-Hop through a dedicated tribute section, complete with images and text.
+- **Tribute Section:** Learn about the life, achievements, and impact of Nujabes through a dedicated tribute section, complete with images and text.
 
 - **Interactive UI:** The user interface is intuitive, making it easy for visitors to navigate the website, explore content, and play music.
 
