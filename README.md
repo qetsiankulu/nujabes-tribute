@@ -29,7 +29,7 @@ I created this project to demonstrate my proficiency (i.e., able to complete cod
 
 ## Demo
 
-You can experience the Nujabes Tribute website live by [visiting the webpage](https://qetsiankulu.com/nujabes-tribute.html).
+You can experience the Nujabes Tribute website live by [visiting the webpage](https://qetsiankulu.github.io/nujabes-tribute/).
 
 ## Usage
 
